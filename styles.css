@@ -7,8 +7,30 @@
 .navContents{
     display: inline;
     text-align: center;
+    padding: 8px;
 }
 
 #rightNav{
     float: right;
+}
+
+.navLink{
+    text-decoration: none;
+}
+
+.navLink:hover{
+    text-decoration: underline;
+}
+
+.container{
+    position: fixed;
+    top:50%;
+    bottom:50%;
+    left:45%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    text-align:center;
 }
