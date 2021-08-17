@@ -1,9 +1,14 @@
-ul {
+.navBar {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-li{
+.navContents{
     display: inline;
+    text-align: center;
+}
+
+#rightNav{
+    float: right;
 }
