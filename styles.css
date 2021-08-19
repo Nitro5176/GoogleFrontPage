@@ -24,13 +24,46 @@
 
 .container{
     position: fixed;
-    top:50%;
-    bottom:50%;
+    top:30%;
+    bottom:40%;
     left:45%;
+}
+
+.image{
+    position: relative;
+    left:-35%;
+    height: 200px;
+    width: 500px;
 }
 
 footer{
     position: fixed;
     bottom: 0;
     text-align:center;
+}
+
+.googleButton{
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: white;
+    height: 35px;
+    width: 125px;
+    background-color:#f8f9fa;
+}
+
+.googleButton:hover{
+    border-radius:5px;
+    height: 35px;
+    width: 125px;
+    border-color:lightgrey;
+}
+
+.LanguageID{
+    color:blue;
+    text-decoration: none;
+}
+
+.LanguageID:hover{
+    color:blue;
+    text-decoration:underline;
 }
