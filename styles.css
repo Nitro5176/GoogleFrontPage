@@ -26,12 +26,12 @@
     position: fixed;
     top:30%;
     bottom:40%;
-    left:45%;
+    left: 30%;
 }
 
 .image{
     position: relative;
-    left:-35%;
+    left:20%;
     height: 200px;
     width: 500px;
 }
@@ -46,16 +46,18 @@ footer{
     border: 1px solid;
     border-radius: 5px;
     border-color: white;
-    height: 35px;
-    width: 125px;
+    height: 40px;
+    width: 140px;
     background-color:#f8f9fa;
+    margin-top:15px;
 }
 
 .googleButton:hover{
     border-radius:5px;
-    height: 35px;
-    width: 125px;
+    height: 40px;
+    width: 140px;
     border-color:lightgrey;
+    margin-top:15px;
 }
 
 .LanguageID{
@@ -66,4 +68,24 @@ footer{
 .LanguageID:hover{
     color:blue;
     text-decoration:underline;
+}
+
+.Textbox{
+    height:30px;
+    width:400px;
+    margin-left:160px;
+    border-radius:50px;
+    background-color: transparent;
+    border-color: lightGrey;
+    outline-width: 0;
+}
+
+.Textbox:hover{
+    height:30px;
+    width:400px;
+    margin-left:160px;
+    border-radius:50px;
+    background-color: transparent;
+    border-color: lightGrey;
+    outline-width: 0;
 }
