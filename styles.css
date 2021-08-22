@@ -89,22 +89,28 @@ footer{
 .MagnifyingIcon{
     width:24px;
     height:24px;
-    margin-left:10px;
+    margin-left:0px;
 }
 
 .MicIcon{
-    width: 24px;
-    height: 24px;
+    width: 26px;
+    height: 26px;
+    
 }
 
 .searchBoxForm{
     border: lightGrey;
-    margin-left:160px;
-    height:50px;
-    width:600px;
+    margin-left:105px;
+    height:37px;
+    width:575px;
+    border-radius:50px;
+    border: 1px solid transparent;
+    display:flex;
 }
 
 .searchBoxForm:hover{
-    background-color:blue;
+    border-color:lightGrey;
     border-radius: 50px;
+    border: 1px solid;
+    display:flex;
 }
