@@ -76,6 +76,7 @@ footer{
     background-color: transparent;
     border-color: lightGrey;
     outline-width: 0;
+    border: hidden;
 }
 
 .Textbox:hover{
@@ -83,7 +84,8 @@ footer{
     width:500px;
     background-color: transparent;
     border-color: lightGrey;
-    outline-width: 0;
+    outline-width: 0px;
+    border: hidden;
 }
 
 .MagnifyingIcon{
@@ -99,12 +101,12 @@ footer{
 }
 
 .searchBoxForm{
-    border: lightGrey;
+    border: blue;
     margin-left:105px;
     height:37px;
     width:575px;
     border-radius:50px;
-    border: 1px solid transparent;
+    border: 1px solid;
     display:flex;
 }
 
@@ -112,5 +114,6 @@ footer{
     border-color:lightGrey;
     border-radius: 50px;
     border: 1px solid;
+    box-shadow: 3px;
     display:flex;
 }
