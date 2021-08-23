@@ -1,6 +1,9 @@
 .navBar {
     margin: 0;
     padding: 0;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;  
 }
 
 .navContents{
@@ -8,6 +11,7 @@
     text-align: center;
     padding: 8px;
     color: black;
+
 }
 
 #rightNav{
@@ -25,6 +29,45 @@
     text-decoration: underline;
 }
 
+.signInButton{
+    background-color:#1a73e8;
+    border-radius: 10px;    
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-top: 10px;
+    color: white;
+}
+
+.signInButton:hover{
+    background-color:#4285f4;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-top: 10px;
+}
+
+.grid{
+    width: 26px;
+    height: 26px;
+    padding: 5px;
+    margin-top: -8px;
+    margin-right: 3px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.grid:hover{
+    width: 26px;
+    height: 26px;
+    padding: 5px;
+    margin-top: -8px;
+    margin-right: 3px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: lightGrey;
+}
+
 .container{
     position: fixed;
     top:30%;
@@ -37,12 +80,6 @@
     left:20%;
     height: 200px;
     width: 500px;
-}
-
-footer{
-    position: fixed;
-    bottom: 0;
-    text-align:center;
 }
 
 .googleButton{
@@ -123,10 +160,13 @@ footer{
 }
 
 footer{
+    position: fixed;
+    bottom: 0;
+    text-align:center;
     display:inline;
     width:100%;
     background-color:#f8f9fa;
-    height: 40px;
+    height: 50px;
     left:0%;
 }
 
@@ -138,7 +178,8 @@ footer{
 .footerContents{
     text-align: center;
     padding: 8px;
-    color:black;
+    color:grey;
+    padding: 15px;
 }
 
 .rightFooter{
