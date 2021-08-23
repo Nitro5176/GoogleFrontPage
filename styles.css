@@ -1,5 +1,4 @@
 .navBar {
-    list-style-type: none;
     margin: 0;
     padding: 0;
 }
@@ -8,6 +7,7 @@
     display: inline;
     text-align: center;
     padding: 8px;
+    color: black;
 }
 
 #rightNav{
@@ -116,4 +116,37 @@ footer{
     border: 1px solid;
     box-shadow: 3px;
     display:flex;
+}
+
+footer{
+    display:inline;
+    width:100%;
+    background-color:#f8f9fa;
+    height: 40px;
+}
+
+.footerBar {
+    margin: 0;
+    padding: 0;
+}
+
+.footerContents{
+    text-align: center;
+    padding: 8px;
+    color:black;
+}
+
+.rightFooter{
+    float:right;
+}
+.leftFooter{
+    float:left;
+}
+
+.footerLinks{
+    text-decoration: none;
+}
+
+.footerLinks:hover{
+    text-decoration:underline;
 }
