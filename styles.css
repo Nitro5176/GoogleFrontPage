@@ -77,6 +77,7 @@ footer{
     border-color: lightGrey;
     outline-width: 0;
     border: hidden;
+    margin-top:2px;
 }
 
 .Textbox:hover{
@@ -91,30 +92,30 @@ footer{
 .MagnifyingIcon{
     width:24px;
     height:24px;
-    margin-left:0px;
+    margin-left:12px;
+    padding-top:6px;
 }
 
 .MicIcon{
-    width: 26px;
-    height: 26px;
-    
+    width: 15px;
+    height: 20px;
+    padding-top:4px;
+    margin-top:3px;
 }
 
 .searchBoxForm{
-    border: blue;
     margin-left:105px;
     height:37px;
     width:575px;
     border-radius:50px;
-    border: 1px solid;
+    border: 1px solid lightGrey;
     display:flex;
 }
 
 .searchBoxForm:hover{
-    border-color:lightGrey;
     border-radius: 50px;
-    border: 1px solid;
-    box-shadow: 3px;
+    border: 1px solid lightGrey;
+    box-shadow: 0px 0px 5px #888888;
     display:flex;
 }
 
