@@ -77,7 +77,7 @@
 
 .image{
     position: relative;
-    left:20%;
+    left:15%;
     height: 200px;
     width: 500px;
 }
@@ -144,7 +144,7 @@
 }
 
 .searchBoxForm{
-    margin-left:105px;
+    margin-left:70px;
     height:37px;
     width:575px;
     border-radius:50px;
